@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pick – Weniger grübeln. Mehr machen.</title>
+  <meta name="description" content="Pick ist unser kleiner Helfer für alles, was den Kopf voll macht: Essen aussuchen, gemeinsam einkaufen, Aufgaben erledigen.">
+  <meta name="theme-color" content="#EEF3F9">
+  <link rel="icon" href="../../img/favicon-64.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.27/dist/lenis.css">
+  <link rel="stylesheet" href="styles.css">
+  <script>if (!matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('motion');</script>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><i></i></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Pick – nach oben"><img src="../../img/pick-symbol.png" alt="" width="34" height="34">Pick</a>
+    <nav class="nav-links" aria-label="Seitenbereiche">
+      <a href="#helfer">Helfer</a>
+      <a href="#wischen">Wischen</a>
+      <a href="#bald">Bald</a>
+    </nav>
+    <a class="btn btn-dark magnet" href="https://lampard1337.github.io/Pick/">Zur App</a>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO: Kartenstapel aus dem Logo. Die Mint-Karte wächst beim Scrollen über den ganzen Bildschirm -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker"><span class="dot"></span>Unser ADHS-Helfer</p>
+        <h1 class="hero-title">
+          <span class="ln"><span>Weniger</span></span>
+          <span class="ln"><span>grübeln.</span></span>
+          <span class="ln"><span class="grad">Mehr machen.</span></span>
+        </h1>
+        <p class="hero-sub">Pick nimmt euch die kleinen Entscheidungen ab, die den Kopf voll machen – was es zu essen gibt, was eingekauft werden muss und was als Nächstes dran ist.</p>
+        <div class="hero-cta">
+          <a class="btn btn-dark btn-lg magnet" href="https://lampard1337.github.io/Pick/">App öffnen <span aria-hidden="true">→</span></a>
+          <a class="btn btn-line btn-lg" href="#helfer">Was Pick kann</a>
+        </div>
+      </div>
+
+      <div class="cards" aria-hidden="true">
+        <div class="pc pc-coral"><span class="pc-e">🛒</span><b>Einkauf</b><small>8 Artikel</small></div>
+        <div class="pc pc-white"><span class="pc-e">🍽️</span><b>Essen</b><small>Heute noch offen</small></div>
+        <div class="pc pc-mint">
+          <span class="flat"></span>
+          <svg class="check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+          <b>Pick</b><small>Als Nächstes · Oma anrufen</small>
+        </div>
+      </div>
+
+      <!-- Erscheint auf der Mint-Fläche -->
+      <div class="cover" aria-label="Hundert kleine Fragen">
+        <div class="bubbles">
+          <p class="bubble b1"><span>Was essen wir heute?</span></p>
+          <p class="bubble b2"><span>Wer bringt den Müll raus?</span></p>
+          <p class="bubble b3"><span>Haben wir noch Milch?</span></p>
+          <p class="bubble b4"><span>Was machen wir am Wochenende?</span></p>
+        </div>
+        <h2 class="cover-title">Hundert kleine Fragen am Tag.<br><span>Pick beantwortet sie.</span></h2>
+      </div>
+    </section>
+
+    <!-- HELFER: Karten stapeln sich beim Scrollen -->
+    <section class="helpers" id="helfer">
+      <div class="helpers-head">
+        <p class="kicker dark">Eure Helfer</p>
+        <h2 class="h2">Eine App.<br>Weniger Kopfkino.</h2>
+      </div>
+      <div class="stack">
+        <div class="spin" style="--i:0"><article class="scard s-navy">
+          <div class="scard-copy">
+            <span class="idx">01</span>
+            <h3>Heute</h3>
+            <p>Eine Startseite, die weiß, was gerade dran ist: abends das Essen, tagsüber die nächste Aufgabe, zwischendurch der Einkauf.</p>
+            <ul class="tags"><li>Weiß, was dran ist</li><li>Alles auf einen Blick</li></ul>
+          </div>
+          <div class="scard-media"><div class="phone"><img src="../../img/screen-heute.jpg" alt="Startseite von Pick" loading="lazy"></div></div>
+        </article></div>
+        <div class="spin" style="--i:1"><article class="scard s-white">
+          <div class="scard-copy">
+            <span class="idx">02</span>
+            <h3>Essen</h3>
+            <p>Eure Lieblingsgerichte und Restaurants als Kartenstapel. Wischen statt diskutieren – mit Rezept, Zutaten und Karte zum Restaurant.</p>
+            <ul class="tags"><li>Rezepte</li><li>Restaurants</li><li>Wischen</li></ul>
+          </div>
+          <div class="scard-media"><div class="phone"><img src="../../img/screen-essen.jpg" alt="Essens-Karten in Pick" loading="lazy"></div></div>
+        </article></div>
+        <div class="spin" style="--i:2"><article class="scard s-coral">
+          <div class="scard-copy">
+            <span class="idx">03</span>
+            <h3>Einkauf</h3>
+            <p>Eine gemeinsame Liste, die sich sofort auf beiden Handys aktualisiert. Zutaten kommen mit einem Tipp direkt aus dem Rezept.</p>
+            <ul class="tags"><li>Live auf beiden Handys</li><li>Zutaten aus dem Rezept</li></ul>
+          </div>
+          <div class="scard-media"><div class="phone"><img src="../../img/screen-einkauf.jpg" alt="Einkaufsliste in Pick" loading="lazy"></div></div>
+        </article></div>
+        <div class="spin" style="--i:3"><article class="scard s-blue">
+          <div class="scard-copy">
+            <span class="idx">04</span>
+            <h3>Aufgaben</h3>
+            <p>Keine endlose To-do-Liste, sondern immer nur eine Karte: das Nächste. Mit Timer, „später“ und dem guten Gefühl beim Abhaken.</p>
+            <ul class="tags"><li>Immer nur eine Karte</li><li>Timer</li><li>Später</li></ul>
+          </div>
+          <div class="scard-media"><div class="phone"><img src="../../img/screen-aufgaben.jpg" alt="Aufgaben in Pick" loading="lazy"></div></div>
+        </article></div>
+      </div>
+    </section>
+
+    <!-- WISCHEN: zum Ausprobieren -->
+    <section class="swipe sheet" id="wischen">
+      <span class="ghost g-no" aria-hidden="true">NÖ</span>
+      <span class="ghost g-yes" aria-hidden="true">JA</span>
+      <div class="swipe-head">
+        <p class="kicker">Probier’s aus</p>
+        <h2 class="h2">Rechts heißt <span class="m">ja.</span><br>Links heißt <span class="c">nö.</span></h2>
+        <p class="swipe-sub">Höchstens <strong>zweimal Nö</strong> pro Tag – danach gilt die Karte.</p>
+      </div>
+      <div class="deck" tabindex="0" aria-label="Essens-Karten. Pfeil links heißt Nö, Pfeil rechts heißt Ja.">
+        <div class="dcard" data-name="Lasagne" style="background-image:url(../../img/lasagne.jpg)"><span class="st yes">JA!</span><span class="st no">NÖ</span><b>Lasagne</b></div>
+        <div class="dcard" data-name="Hähnchen-Curry" style="background-image:url(../../img/curry.jpg)"><span class="st yes">JA!</span><span class="st no">NÖ</span><b>Hähnchen-Curry</b></div>
+        <div class="dcard" data-name="Pfannkuchen" style="background-image:url(../../img/pfannkuchen.jpg)"><span class="st yes">JA!</span><span class="st no">NÖ</span><b>Pfannkuchen</b></div>
+        <div class="deck-result" hidden>
+          <span class="party">🎉</span>
+          <b>Heute gibt’s<br><span id="pick-name">Pfannkuchen</span>!</b>
+          <button class="btn btn-light" id="deck-reset" type="button">Nochmal</button>
+        </div>
+      </div>
+      <div class="deck-controls">
+        <button class="round no" id="btn-no" type="button" aria-label="Nö"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+        <div class="nope-count"><b id="nope-n">2</b><span>Nö übrig</span></div>
+        <button class="round yes" id="btn-yes" type="button" aria-label="Ja"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></button>
+      </div>
+      <p class="deck-hint" id="deck-hint" aria-live="polite">Zieh die Karte ← →</p>
+    </section>
+
+    <!-- BALD: große Zeilen, Sticker folgt der Maus -->
+    <section class="soon sheet" id="bald">
+      <div class="soon-head">
+        <p class="kicker dark">Was noch kommt</p>
+        <h2 class="h2">Pick wächst mit uns.</h2>
+      </div>
+      <ul class="rows">
+        <li class="row r-navy" data-e="📅"><span class="r-idx">01</span><h3>Termine</h3><p>Ein gemeinsamer Kalender, der rechtzeitig Bescheid gibt.</p><span class="r-tag">bald</span></li>
+        <li class="row r-mint" data-e="🔁"><span class="r-idx">02</span><h3>Routinen</h3><p>Morgens und abends Schritt für Schritt – ohne nachzudenken.</p><span class="r-tag">bald</span></li>
+        <li class="row r-coral" data-e="🎉"><span class="r-idx">03</span><h3>Freizeit</h3><p>„Was machen wir am Wochenende?“ – einmal wischen, fertig.</p><span class="r-tag">bald</span></li>
+      </ul>
+      <span class="sticker" aria-hidden="true">📅</span>
+    </section>
+
+    <!-- FINALE -->
+    <section class="finale sheet">
+      <div class="finale-copy">
+        <h2 class="h2 finale-title">Bereit, weniger zu grübeln?</h2>
+        <a class="btn btn-dark btn-lg magnet" href="https://lampard1337.github.io/Pick/">Pick öffnen <span aria-hidden="true">→</span></a>
+        <p class="note">Private App – Zugang nur für uns zwei.</p>
+      </div>
+      <div class="wordmark" aria-hidden="true">Pick</div>
+      <footer class="foot">
+        <span>© Pick</span>
+        <span>Animationen mit <a href="https://gsap.com" rel="noopener">GSAP</a> · Scrollen mit <a href="https://lenis.darkroom.engineering" rel="noopener">Lenis</a> · Effekte nach <a href="https://reactbits.dev" rel="noopener">React Bits</a></span>
+      </footer>
+    </section>
+  </main>
+
+  <script src="../../vendor/gsap.min.js"></script>
+  <script src="../../vendor/ScrollTrigger.min.js"></script>
+  <script src="../../vendor/SplitText.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.3.27/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
